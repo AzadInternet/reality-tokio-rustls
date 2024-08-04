@@ -565,6 +565,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "reality-tokio-rustls"
+version = "0.26.0"
+dependencies = [
+ "argh",
+ "futures-util",
+ "lazy_static",
+ "rcgen",
+ "rustls",
+ "rustls-pemfile",
+ "rustls-pki-types",
+ "tokio",
+ "webpki-roots",
+]
+
+[[package]]
 name = "redox_syscall"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -821,21 +836,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "tokio-rustls"
-version = "0.26.0"
-dependencies = [
- "argh",
- "futures-util",
- "lazy_static",
- "rcgen",
- "rustls",
- "rustls-pemfile",
- "rustls-pki-types",
- "tokio",
- "webpki-roots",
 ]
 
 [[package]]
